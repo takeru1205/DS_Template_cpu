@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:latest
+FROM huggingface/transformers-pytorch-cpu:latest
 
 ARG TZ=Asia/Tokyo
 
